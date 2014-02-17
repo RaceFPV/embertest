@@ -9,8 +9,14 @@ gem 'sqlite3'
 #use ember.js for the javascript frontend
 gem 'ember-rails'
 
+#for nice icons
+gem "font-awesome-rails"
+
 #user management
 gem 'devise'
+
+#admin management
+gem 'activeadmin', github: 'gregbell/active_admin'
 
 group :production do
   gem 'pg' # Heroku database
