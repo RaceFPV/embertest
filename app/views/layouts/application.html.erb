@@ -8,6 +8,7 @@
   <%= favicon_link_tag 'favicon.ico' %>
 </head>
 <body>
+  <%= render partial: "layouts/navbar" %>
 <%= render partial: "layouts/flash_messages", flash: flash %>
 <%= yield %>
 </body>
