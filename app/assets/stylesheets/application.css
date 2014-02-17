@@ -11,5 +11,6 @@
  *= require_self
  *= require custom
  *= require font-awesome
+ *= require landing-page
  *= require_tree .
  */

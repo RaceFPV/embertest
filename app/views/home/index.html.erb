@@ -1,4 +1,7 @@
-    <div class="intro-header">
+<%= render partial: "home/modals" %>
+
+
+<div class="intro-header">
 
         <div class="container">
 
@@ -9,12 +12,12 @@
                         <h3>Playing with new gems and Ember.js</h3>
                         <hr class="intro-divider">
                         <ul class="list-inline intro-social-buttons">
-                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
+                              <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signin">
+                                Sign in
+                              </button>
+                              <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signup">
+                                Sign up
+                              </button>
                         </ul>
                     </div>
                 </div>
@@ -120,26 +123,3 @@
 
     </div>
     <!-- /.banner -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li><a href="#home">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2013. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
