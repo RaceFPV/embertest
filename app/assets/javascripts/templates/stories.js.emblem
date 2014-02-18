@@ -1,0 +1,6 @@
+<h1> Story Listing </h1>
+
+<% Story.each do |story| %>
+  <h2> <%= story.name %> </h2>
+  | {{{story.body}}} 
+  <% end %>

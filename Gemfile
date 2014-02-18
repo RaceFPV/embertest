@@ -16,6 +16,9 @@ gem "font-awesome-rails"
 gem 'devise'
 gem "cancan"
 
+gem 'ember-source'
+gem 'emblem-rails'
+
 #admin management
 gem 'activeadmin', github: 'gregbell/active_admin'
 
@@ -59,14 +62,11 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
-# Ember style coffeescript
-gem 'ember_script-rails', :github => 'ghempton/ember-script-rails'
-
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+#gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
